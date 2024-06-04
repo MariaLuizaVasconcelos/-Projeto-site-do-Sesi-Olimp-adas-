@@ -1,0 +1,81 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .header {
+    background-color: #00c0c0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+  }
+  
+  .section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    width: 90%;
+  }
+  
+  .card {
+    margin: 50px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 450px;
+    color: white;
+  }
+
+  .card-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .box {
+    height: 100px;
+    width: 150px;
+    background-color: #fffacd;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    
+  }
+  
+  .box img{
+    width: 150px;
+  }
+  .fundo-vermelho{
+    background-color: crimson;
+  }
+  .fundo-verde{
+    background-color: #00c01d;
+  }
+  .fundo-rosa{
+    background-color: palevioletred;
+  }
+  .fundo-amarelo{
+    background-color: purple;
+  }
